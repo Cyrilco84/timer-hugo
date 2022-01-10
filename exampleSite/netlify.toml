@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "hugo --minify"
+  command = "npm install hugo-extended --save-dev && hugo --minify --gc"
   
 [build.environment]
   HUGO_VERSION = "0.87.0"
